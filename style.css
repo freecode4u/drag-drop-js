@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(to right, #0084b8, #2f3838);
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+}
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: rgb(241 227 255 / 84%);
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.heading h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.heading h1:before {
+  width: 28px;
+  height: 8px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #0084b8;
+}
+
+.heading h1:after {
+  width: 100px;
+  height: 3px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #0084b8;
+}
+
+.imgBox {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/f/f2/Robert_Downey_Jr._as_Tony_Stark_in_Avengers_Infinity_War.jpg");
+  position: relative;
+  top: 1px;
+  height: 160px;
+  border-radius: 50%;
+  width: 180px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+.whiteBox {
+  background-color: white;
+  border: 2px solid rgb(0 0 0 / 80%);
+  margin: 10px;
+  height: 200px;
+  width: 220px;
+  display: inline-block;
+}
+
+.hold {
+  border: solid 4px rgb(218, 8, 8);
+}
+
+.hide {
+  display: none;
+}
+
+.dashed {
+  border-style: dashed;
+  background-color: aqua;
+  transition-timing-function: ease;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    justify-content: center;
+    display: grid;
+  }
+}
