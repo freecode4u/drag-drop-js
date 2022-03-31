@@ -1,4 +1,4 @@
 # drag-drop-js
 <strong>Simple drag drop using javascipt.</strong>
 
-#link: 
+visit to see result: https://freecode4u.github.io/drag-drop-js/
